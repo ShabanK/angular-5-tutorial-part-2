@@ -10,6 +10,6 @@ import { ElementsHomeComponent } from './elements-home/elements-home.component';
     ElementsRoutingModule
   ],
   declarations: [ElementsHomeComponent],
-  exports: [ElementsHomeComponent] 
+  exports: [] 
 })
 export class ElementsModule { }
