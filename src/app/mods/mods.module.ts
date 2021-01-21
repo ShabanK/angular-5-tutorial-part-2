@@ -10,6 +10,6 @@ import { ModsHomeComponent } from './mods-home/mods-home.component';
     ModsRoutingModule
   ],
   declarations: [ModsHomeComponent],
-  exports:[ModsHomeComponent]
+  exports:[]
 })
 export class ModsModule { }

@@ -10,6 +10,6 @@ import { ViewsHomeComponent } from './views-home/views-home.component';
     ViewsRoutingModule
   ],
   declarations: [ViewsHomeComponent],
-  exports:[ViewsHomeComponent]
+  exports:[]
 })
 export class ViewsModule { }

@@ -10,6 +10,6 @@ import { CollectionsHomeComponent } from './collections-home/collections-home.co
     CollectionsRoutingModule
   ],
   declarations: [CollectionsHomeComponent],
-  exports:[CollectionsHomeComponent]
+  exports:[]
 })
 export class CollectionsModule { }
