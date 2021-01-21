@@ -6,6 +6,7 @@ import { ElementsRoutingModule } from './elements-routing.module';
 import { ElementsHomeComponent } from './elements-home/elements-home.component';
 import { PlaceholderComponent } from './placeholder/placeholder.component';
 import { TimesDirective } from './times.directive';
+import { SegmentComponent } from './segment/segment.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,7 @@ import { TimesDirective } from './times.directive';
     ElementsRoutingModule,
     SharedModule
   ],
-  declarations: [ElementsHomeComponent, PlaceholderComponent, TimesDirective],
+  declarations: [ElementsHomeComponent, PlaceholderComponent, TimesDirective, SegmentComponent],
   exports: [] 
 })
 export class ElementsModule { }
