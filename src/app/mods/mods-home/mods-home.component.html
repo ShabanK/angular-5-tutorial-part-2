@@ -1,8 +1,9 @@
 <app-divider>Modal Component</app-divider>
-<button (click)="toggleModal()">Show Model</button>
+<button class="ui button" (click)="toggleModal()">Show Model</button>
 <app-modal (close)="toggleModal()" *ngIf="toggle">
   <div title>This is a header</div>
   <p description>This is the description</p>
   <button class="ui button" (click)="toggleModal()">Custom Close</button>
 </app-modal>
-
+<app-divider>Accordion</app-divider>
+<app-accordion [items]="items"></app-accordion>

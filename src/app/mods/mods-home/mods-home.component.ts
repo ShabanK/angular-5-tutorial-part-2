@@ -8,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class ModsHomeComponent implements OnInit {
 
   toggle:boolean=false;
+  items=[
+    {title:"Why is the sky blue?",content:"Ultraviolet rays to be vibin doe"},
+    {title:"Why is the sky red?",content:"Ultraviolet rays to be vibin doe"},
+    {title:"Why is the sky pink?",content:"Ultraviolet rays to be vibin doe"},
+  ]
   constructor() { }
 
   ngOnInit() {
