@@ -4,7 +4,8 @@ import { CommonModule } from '@angular/common';
 import { ViewsRoutingModule } from './views-routing.module';
 import { ViewsHomeComponent } from './views-home/views-home.component';
 import { StatisticsComponent } from './statistics/statistics.component';
-import { SharedModule } from "../shared/shared.module"
+import { SharedModule } from "../shared/shared.module";
+import { ItemsComponent } from './items/items.component'
 
 @NgModule({
   imports: [
@@ -12,7 +13,7 @@ import { SharedModule } from "../shared/shared.module"
     ViewsRoutingModule,
     SharedModule
   ],
-  declarations: [ViewsHomeComponent, StatisticsComponent],
+  declarations: [ViewsHomeComponent, StatisticsComponent, ItemsComponent],
   exports:[]
 })
 export class ViewsModule { }
