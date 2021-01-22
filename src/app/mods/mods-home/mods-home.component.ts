@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModsHomeComponent implements OnInit {
 
+  toggle:boolean=false;
   constructor() { }
 
   ngOnInit() {
   }
 
+  toggleModal(){
+    this.toggle=!this.toggle;
+  }
 }
