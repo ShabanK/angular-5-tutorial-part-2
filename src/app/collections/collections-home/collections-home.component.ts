@@ -8,14 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class CollectionsHomeComponent implements OnInit {
 
   data=[
-    {name:"John", age: 14, job:"Blogger"},
-    {name:"Elyse", age: 140, job:"Youtuber"},
-    {name:"Elise", age: 34, job:"Comedian"},
+    {name:"John", age: 14, job:"Blogger", employed: true},
+    {name:"Elyse", age: 140, job:"Youtuber",employed: true},
+    {name:"Elise", age: 34, job:"Comedian",employed: true},
   ]
   headers=[
     {key: "name", label:"Name"},
     {key: "age", label: "Age"},
     {key: "job", label: "Job"},
+    {key: "employed", label: "Has a job?"}
   ]
   constructor() { }
 
