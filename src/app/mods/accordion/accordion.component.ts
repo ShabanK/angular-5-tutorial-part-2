@@ -8,10 +8,16 @@ import { Component, OnInit, Input } from '@angular/core';
 export class AccordionComponent implements OnInit {
   
   @Input() items = []
-  
+  openedItemIndex:number = 0
   constructor() { }
 
   ngOnInit() {
+  }
+
+  changeActive(i:number){
+    if (i===this.openedItemIndex){
+      this.openedItemIndex = -1
+    } else this.openedItemIndex=i;
   }
 
 }
